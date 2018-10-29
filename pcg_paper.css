@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Aiden Martinez
+   Date:   10/29/2018
+
+   Filename:         pcg_paper.css
+   Supporting Files: 
+
+*/
+html {
+    min-width: 640px;
+    max-width: 960px;
+}
+
+nav#links2 {
+    display: block;
+}
+
+nav#links2>ul>li {
+    background-color: darkgray;
+    list-style-type: none;
+    width: 150px;
+    text-align: center;
+}
+
+nav#links2>ul>li>a {
+    color: aqua;
+    text-decoration: unset;
+}
+
+nav#links2>ul>li:hover,
+nav#links2>ul>li>a:hover {
+    color: white;
+    background-color: orange;
+    padding: 7.5px;
+    transition: 0.30s;
+}

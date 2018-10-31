@@ -41,3 +41,55 @@ nav#links2>ul>li>a:hover {
     padding: 7.5px;
     transition: 0.30s;
 }
+
+a:link {
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: orange;
+}
+
+div.story1 {
+    background-color: lightgreen;
+    border-style: groove;
+}
+
+div.story1:hover {
+    background-color: orange;
+    border-style: inset;
+    transition: 0.5s;
+}
+
+div.story2 {
+    background-color: aliceblue;
+    border-style: groove;
+}
+
+div.story2:hover {
+    background-color: orange;
+    border-style: inset;
+    transition: 0.5s;
+}
+
+div.story3 {
+    background-color: lightcoral;
+    border-style: groove;
+}
+
+div.story3:hover {
+    background-color: orange;
+    border-style: inset;
+    transition: 0.5s;
+}
+
+div.story4 {
+    background-color: lightyellow;
+    border-style: groove;
+}
+
+div.story4:hover {
+    background-color: orange;
+    border-style: inset;
+    transition: 0.5s;
+}
